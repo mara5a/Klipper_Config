@@ -1,0 +1,96 @@
+taken from httpsgithub.comfederico-gallivoron-2.4blobfedevoronconfigdrivers.cfg
+[tmc5160 stepper_x]
+cs_pin X_CS
+spi_software_sclk_pin TMC_SW_SCK
+spi_software_mosi_pin TMC_SW_MOSI
+spi_software_miso_pin TMC_SW_MISO
+diag1_pin X_DIAG
+interpolate true
+run_current 1.100
+hold_current 0.600
+stealthchop_threshold 50
+sense_resistor 0.075
+driver_PWM_FREQ 1
+
+[tmc5160 stepper_y]
+cs_pin Y_CS
+spi_software_sclk_pin TMC_SW_SCK
+spi_software_mosi_pin TMC_SW_MOSI
+spi_software_miso_pin TMC_SW_MISO
+diag1_pin Y_DIAG
+interpolate true
+run_current 1.100
+hold_current 0.600
+stealthchop_threshold 50
+sense_resistor 0.075
+driver_PWM_FREQ 1
+
+[tmc5160 stepper_z]
+cs_pin zX_CS
+spi_software_sclk_pin zTMC_SW_SCK
+spi_software_mosi_pin zTMC_SW_MOSI
+spi_software_miso_pin zTMC_SW_MISO
+diag1_pin zX_DIAG
+interpolate true
+run_current 1.100
+hold_current 0.8
+stealthchop_threshold 0
+sense_resistor 0.075
+driver_PWM_FREQ 1
+
+[tmc5160 stepper_z1]
+cs_pin zY_CS
+spi_software_sclk_pin zTMC_SW_SCK
+spi_software_mosi_pin zTMC_SW_MOSI
+spi_software_miso_pin zTMC_SW_MISO
+diag1_pin zY_DIAG
+interpolate true
+run_current 1.100
+hold_current 0.8
+stealthchop_threshold 0
+sense_resistor 0.075
+driver_PWM_FREQ 1
+
+[tmc5160 stepper_z2]
+cs_pin zZ_CS
+spi_software_sclk_pin zTMC_SW_SCK
+spi_software_mosi_pin zTMC_SW_MOSI
+spi_software_miso_pin zTMC_SW_MISO
+diag1_pin zZ_DIAG
+interpolate true
+run_current 1.100
+hold_current 0.8
+stealthchop_threshold 0
+sense_resistor 0.075
+driver_PWM_FREQ 1
+
+[tmc5160 stepper_z3]
+cs_pin zE0_CS
+spi_software_sclk_pin zTMC_SW_SCK
+spi_software_mosi_pin zTMC_SW_MOSI
+spi_software_miso_pin zTMC_SW_MISO
+diag1_pin zE0_DIAG
+interpolate true
+run_current 1.100
+hold_current 0.8
+stealthchop_threshold 0
+sense_resistor 0.075
+driver_PWM_FREQ 1
+
+[tmc5160 extruder]
+cs_pin E0_CS
+spi_software_sclk_pin TMC_SW_SCK
+spi_software_mosi_pin TMC_SW_MOSI
+spi_software_miso_pin TMC_SW_MISO
+diag1_pin E0_DIAG
+interpolate false
+
+OMC 20mm 1A pancake
+run_current 0.580
+
+Lgx
+run_current 0.520
+hold_current 0.400
+stealthchop_threshold 0
+sense_resistor 0.075
+driver_PWM_FREQ 1
